@@ -1,0 +1,17 @@
+print("Char\tInteger")
+
+
+print("B\t", 66)
+print("C\t", 67)
+print("D\t", 68)
+print("b\t", 98)
+print("c\t", 99)
+print("d\t", 100)
+print("0\t", 48)
+print("1\t", 49)
+print("2\t", 50)
+print("$\t", 36)
+print("*\t", 42)
+print("+\t", 43)
+print(" \t", 32)
+
