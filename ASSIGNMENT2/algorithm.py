@@ -1,4 +1,4 @@
-            Algorithm For Making a Cup of Tea (with decision and loop)
+ """           Algorithm For Making a Cup of Tea (with decision and loop)
 
 Get a kettle and fill it with water
 Switch on the kettle to boil the water
@@ -14,4 +14,4 @@ Else skip adding sugar (this is the decision step)
 If you want milk, then add milk
 Else skip adding milk
 Stir the tea
-Serve and drink
+Serve and drink """
