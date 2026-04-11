@@ -1,25 +1,16 @@
-grade = int(input("Enter a grade : " ))
+grade = int(input("Enter your mark: "))
 
-
-if grade >= 90  :
-
-    print("Grade A")
-
-if grade >= 80  :
-
-    print("Grade B")
-
-if grade >= 70  :
-
-    print("Grade C")
-
-if grade >= 60   :
-
-    print("Grade D")
-
-if grade <= 60  :
-
-    print ("Grade F")
-
+if grade >= 90:
+    print("Grade: A")
 else:
-    print("Incorrect grade")
+    if grade >= 80:
+        print("Grade: B")  
+    else:
+        if grade >= 70:
+            rint("Grade: C")
+        else:
+            if grade >= 60:
+                print("Grade: D")
+            else:
+                print("Grade: F")
+
