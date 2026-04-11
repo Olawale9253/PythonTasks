@@ -1,0 +1,17 @@
+            Algorithm For Making a Cup of Tea (with decision and loop)
+
+Get a kettle and fill it with water
+Switch on the kettle to boil the water
+Wait until the water boils
+Place a teabag into a cup
+If (the water has boiled, then pour hot water into the cup)
+Else: wait until the water boils
+Allow the tea to steep for a few minutes
+While the tea is not strong enough, keep waiting (this is the loop step)
+Remove the teabag from the cup
+If you want sugar, then add sugar
+Else skip adding sugar (this is the decision step)
+If you want milk, then add milk
+Else skip adding milk
+Stir the tea
+Serve and drink
