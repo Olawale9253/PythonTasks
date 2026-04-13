@@ -1,5 +1,6 @@
 amount = int(input("Enter amount you want to borrow"))
 
+principal = int (1.005 ** 180 )
 
 p = 100000      # I borrow from semicolon $100,000
 r = 0.005       # Monthly interest rate (0.5%)
