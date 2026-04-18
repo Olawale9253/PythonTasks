@@ -1,11 +1,5 @@
 power_on = True
 
-user_menu_choice = 0
-
-sub_menu_choice = 0
-
-#while power_on != True:
-
 print ('\t Welcome To Nokia 3310 🤝 ')
 
 print ("1. Phone book");
@@ -22,11 +16,11 @@ print ("11.Clock");
 print ("12.Profiles");
 print ("13.SIM services");
 print ("0. Exit");
-print ("Enter choice: ");
 
-user_menu_choice = int(input())
+user_menu_choice = int(input('Select from Phone Menu'))
 
 match user_menu_choice:
+
     case 1 :
 
         print("\t ==== PHONE BOOK ☎️ ==== \n")
@@ -42,7 +36,7 @@ match user_menu_choice:
         print("10.Voice tags")
         print("Enter choice: ")
 
-sub_menu_choice = int(input())
+sub_menu_choice = int(input("Enter your choice"))
 
 match sub_menu_choice:
 
@@ -66,16 +60,51 @@ match sub_menu_choice:
         print("Speed dials: Assign number keys for speed dialing")
     case 10:
         print("Voice tags: Record voice tags for dialing")
-
-    case _ :
-
-        print("invalid option")
+    case 0:
+        print('invalid option')
 
 
+    case 2:
 
+        print("\t ==== MESSAGES ✉️  ==== \n")
+        print("1. Write messages")
+        print("2. Inbox")
+        print("3. Outbox")
+        print("4. Picture messages")
+        print("5. Templates")
+        print("6. Smileys")
+        print("7. Message settings")
+        print("8. Info service")
+        print("9. Voice mailbox number")
+        print("10. Service command editor")
+        print("Enter choice: ")
 
+sub_menu_choice = int(input())
 
+match sub_menu_choice:
 
+    case 1 :
+        print("Write message (max 201 characters)")
+    case 2:
+        print("Inbox: Read received messages")
+    case 3:
+        print("Outbox: View saved messages")
+    case 4:
+        print("Picture messages: Send/receive picture messages")
+    case 5:
+        print("Templates: Use preset messages")
+    case 6:
+        print("Smileys: Edit smiley characters like :-)")
+    case 7:
+        print("Message settings: Set message centre number")
+    case 8:
+        print("Info service: Receive topic-based messages")
+    case 9:
+        print("Voice mailbox number: Store voice mail number")
+    case 10:
+        print("Service command editor: Send service requests")
+    case 0:
+        print('invalid option')
 
 
 
