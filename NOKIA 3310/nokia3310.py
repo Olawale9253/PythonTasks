@@ -28,6 +28,7 @@ user_menu_choice = int(input())
 
 match user_menu_choice:
     case 1 :
+
         print("\t ==== PHONE BOOK ☎️ ==== \n")
         print("1. Search")
         print("2. Service Nos.")
@@ -42,4 +43,42 @@ match user_menu_choice:
         print("Enter choice: ")
 
 sub_menu_choice = int(input())
+
+match sub_menu_choice:
+
+    case 1 :
+        print("Search: Find name and phone number")
+    case 2:
+        print("Service Nos.: Call service provider")
+    case 3:
+        print("Add name: Store name and phone number")
+    case 4:
+        print("Erase: Delete names and numbers")
+    case 5:
+        print("Edit: Modify stored names/numbers")
+    case 6:
+        print("Assign tone: Set ringing tone for caller")
+    case 7:
+        print("Send b'card: Send name/number to another phone")
+    case 8:
+        print("Options: Type of view / Memory status")
+    case 9:
+        print("Speed dials: Assign number keys for speed dialing")
+    case 10:
+        print("Voice tags: Record voice tags for dialing")
+
+    case _ :
+
+        print("invalid option")
+
+
+
+
+
+
+
+
+
+
+
         
