@@ -1,4 +1,5 @@
 power_on = True
+user_menu_choice = 0
 
 print ('\t Welcome To Nokia 3310 🤝 ')
 
@@ -36,7 +37,7 @@ match user_menu_choice:
         print("10.Voice tags")
         print("Enter choice: ")
 
-sub_menu_choice = int(input("Enter your choice"))
+sub_menu_choice = int(input())
 
 match sub_menu_choice:
 
@@ -60,9 +61,8 @@ match sub_menu_choice:
         print("Speed dials: Assign number keys for speed dialing")
     case 10:
         print("Voice tags: Record voice tags for dialing")
-    case 0:
-        print('invalid option')
-
+    
+match user_menu_choice:
 
     case 2:
 
@@ -103,8 +103,100 @@ match sub_menu_choice:
         print("Voice mailbox number: Store voice mail number")
     case 10:
         print("Service command editor: Send service requests")
-    case 0:
-        print('invalid option')
+    case _:
+        print("Invalid option")
+
+match user_menu_choice:
+
+    case 3:
+
+        print("\t ==== CHATS 💬 ==== \n")
+        print("Start conversation using text messages")
+        print("Enter phone number and nickname to begin")
+        
+match user_menu_choice:
+
+    case 4:
+
+        print("\t ==== CALL REGISTERS 📲 === \n")
+        print("1. Missed calls")
+        print("2. Received calls")
+        print("3. Dialled numbers")
+        print("4. Erase recent call lists")
+        print("5. Show call duration")
+        print("6. Show call costs")
+        print("7. Call cost settings")
+        print("8. Prepaid credit")
+        print("Enter choice: ")
+
+sub_menu_choice = int(input())
+
+match sub_menu_choice:
+
+    case 1:
+        print("Missed calls: Last 10 unanswered calls")
+    case 2:
+        print("Received calls: Last 10 answered calls")
+    case 3:
+        print("Dialled numbers: Last 20 called numbers")
+    case 4:
+        print("Erase recent call lists")
+    case 5:
+        print("Show call duration: Last/All calls duration")
+    case 6:
+        print("Show call costs: Cost of calls")
+    case 7:
+        print("Call cost settings: Set cost limit")
+    case 8:
+        print("Prepaid credit: Check remaining credit")
+    case 9:
+        print("Voice mailbox number: Store voice mail number")
+    case 10:
+        print("Service command editor: Send service requests")
+    case _:
+        print("Invalid option")
+
+match user_menu_choice:
+
+    case 5:
+
+        print("\t ==== TONES 🎶 ==== \n")
+        print("1. Ringing tone")
+        print("2. Ringing volume")
+        print("3. Incoming call alert")
+        print("4. Composer")
+        print("5. Message alert tone")
+        print("6. Keypad tones")
+        print("7. Warning and game tones")
+        print("8. Vibrating alert")
+        print("9. Screen saver")
+        print("Enter choice: ") 
+  
+sub_menu_choice = int(input())
+
+match sub_menu_choice:
+
+    case 1:
+        print("Ringing tone: Select ringtone")
+    case 2:
+        print("Ringing volume: Adjust volume")
+    case 3:
+        print("Incoming call alert: Set alert type")
+    case 4:
+        print("Composer: Create your own ringing tone")
+    case 5:
+        print("Message alert tone: Select message tone")
+    case 6:
+        print("Keypad tones: Turn keypad sounds on/off")
+    case 7:
+        print("Warning and game tones")
+    case 8:
+        print("Vibrating alert: Turn vibration on/off")
+    case 9:
+        print("Screen saver: Set screen saver")
+    case _:
+        print("Invalid option")
+
 
 
 
