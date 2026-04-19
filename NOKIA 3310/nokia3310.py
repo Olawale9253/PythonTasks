@@ -1,5 +1,5 @@
 power_on = True
-user_menu_choice = 0
+#user_menu_choice = 0
 
 print ('\t Welcome To Nokia 3310 🤝 ')
 
@@ -61,6 +61,8 @@ match sub_menu_choice:
         print("Speed dials: Assign number keys for speed dialing")
     case 10:
         print("Voice tags: Record voice tags for dialing")
+    case _:
+        print("Invalid option")
     
 match user_menu_choice:
 
@@ -197,8 +199,17 @@ match sub_menu_choice:
     case _:
         print("Invalid option")
 
+match user_menu_choice:
 
+    case 6:
 
+        print("\t ==== SETTINGS 🛠️  ==== \n")
+        print("1. Call settings")
+        print("2. Phone settings")
+        print("3. Security settings")
+        print("4. Restore factory settings")
+        
+sub_menu_choice = int(input())
 
 
 
