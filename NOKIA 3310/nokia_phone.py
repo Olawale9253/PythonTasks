@@ -360,7 +360,7 @@ match user_menu_choice:
     case 0:
         print("\t GOODBYE 🤝")
 
-        power_on = True
+        power_on = False
 
     case _:
         print("Invalid choice! Please enter 0-13")
