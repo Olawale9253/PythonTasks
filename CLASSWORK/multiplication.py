@@ -3,11 +3,22 @@
 """
 
 
+#
+#num = int(input("Enter a number: "))
+#
+#
+#for number in range(1, 11):
+#
+#    print((num * number))
+#
 
-num = int(input("Enter a number: "))
+print("\tMultiplication Table")
 
+for table in range(1, 10):
+    for number in range(1, 10):
+       
+        print((table * number), end = "\t ")
 
-for number in range(1, 11):
+    print()
 
-    print((num * number))
 

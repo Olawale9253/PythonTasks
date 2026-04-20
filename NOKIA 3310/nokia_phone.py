@@ -211,6 +211,37 @@ match user_menu_choice:
         
 sub_menu_choice = int(input())
 
+match sub_menu_choice:
+
+    case 1:
+        print("Call settings: Auto redial, Speed dialing, Call waiting")
+    case 2:
+        print("Phone settings: Language, Welcome note, Lights")
+    case 3:
+        print("Security settings: PIN code, Call barring, Fixed dialing")
+    case 4:
+        print("Restore factory settings: Reset to original values")
+    case _:
+        print("Invalid option")
+
+match user_menu_choice:
+
+    case 7:
+
+        print("\t ==== CALL DIVERT 📬 ==== \n")
+        print("Direct incoming calls to voice mailbox or another number")
+        print("Options: Divert when busy, Divert if not answered, etc.")
+        
+        
+match user_menu_choice:
+
+    case 8:
+
+        print("\t ==== GAMES 🎮 ==== \n")
+        print("1. Snake Xenzia")
+        print("2. Sudoku")
+        print("3. Bounce")
+        print("4. Chicken")
 
 
         
