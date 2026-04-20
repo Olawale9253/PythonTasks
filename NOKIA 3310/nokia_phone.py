@@ -63,7 +63,9 @@ match sub_menu_choice:
         print("Voice tags: Record voice tags for dialing")
     case _:
         print("Invalid option")
-    
+
+user_menu_choice = int(input('Select from Phone Menu'))
+
 match user_menu_choice:
 
     case 2:
@@ -107,6 +109,8 @@ match sub_menu_choice:
         print("Service command editor: Send service requests")
     case _:
         print("Invalid option")
+
+user_menu_choice = int(input('Select from Phone '))
 
 match user_menu_choice:
 
@@ -242,6 +246,125 @@ match user_menu_choice:
         print("2. Sudoku")
         print("3. Bounce")
         print("4. Chicken")
+        print("Choose game: ")
 
+match sub_menu_choice:
 
+    case 1:
+        print("Snake Xenzia: Classic snake game")
+    case 2:
+        print("Sudoku: Puzzle game")
+    case 3:
+        print("Bounce: Bouncing ball game")
+    case 4:
+        print("Chicken: Traffic Chicken game")
+    case _:
+        print("Invalid option")
+
+match user_menu_choice:
+
+    case 9:
+
+        print("\t ==== CALCULATOR 🔢 ==== \n")
+        print("Use +, -, *, / for calculations")
+        print("Also supports currency conversion")
         
+match user_menu_choice:
+
+    case 10:
+
+        print("\t ==== REMINDER 🔔 ==== \n")
+        print("1. Add new")
+        print("2. Erase")
+        print("3. View all")
+        print("Enter choice: ")
+        
+match sub_menu_choice:
+
+    case 1:
+        print("Add new note with or without alarm")
+    case 2:
+        print("Erase notes one by one or all at once")
+    case 3:
+        print("View all reminders")
+    case _:
+        print("Invalid option")
+
+match user_menu_choice:
+
+    case 11:
+
+        print("\t ==== CLOCK ⏰ ==== \n")
+        print("1. Alarm clock")
+        print("2. Clock settings")
+        print("3. Date setting")
+        print("4. Stopwatch")
+        print("5. Countdown timer")
+        print("6. Auto update of date and time")
+        print("Enter choice: ")
+
+match sub_menu_choice:
+
+    case 1:
+        print("Alarm clock: Set alarm time")
+    case 2:
+        print("Clock settings: Set time and format")
+    case 3:
+        print("Date setting: Set current date")
+    case 4:
+        print("Stopwatch: Measure time")
+    case 5:
+        print("Countdown timer: Set timer")
+    case 6:
+        print("Auto update: Network updates time")
+    case _:
+        print("Invalid option")
+
+match user_menu_choice:
+
+    case 12:
+
+        print("\t ==== PROFILES 👥 ==== \n")
+        print("1. General")
+        print("2. Silent")
+        print("3. Meeting")
+        print("4. Outdoor")
+        print("5. Pager")
+        print("Select profile: ")
+
+match sub_menu_choice:
+
+    case 1:
+        print("General: Normal profile")
+    case 2:
+        print("Silent: Mute all tones")
+    case 3:
+        print("Meeting: Discreet tones")
+    case 4:
+        print("Outdoor: Loud tones")
+    case 5:
+        print("Pager: Beep only")
+    case _:
+        print("Invalid option")
+
+match user_menu_choice:
+
+    case 13:
+
+        print("\t ==== SIM SERVICES 📶 ==== \n")
+        print("Additional services provided by your SIM card")
+        print("Contact your service provider for details")
+
+match user_menu_choice:
+
+    case 0:
+        print("\t GOODBYE 🤝")
+
+        power_on = True
+
+    case _:
+        print("Invalid choice! Please enter 0-13")
+
+
+
+   
