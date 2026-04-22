@@ -1,7 +1,7 @@
 power_on = True
 #user_menu_choice = 0
 
-print ('\t Welcome To Nokia 3310 🤝 ')
+print ('\t ===== Welcome To Nokia 3310 🤝 ===== ')
 
 print ("1. Phone book");
 print ("2. Messages");
@@ -98,7 +98,7 @@ match sub_menu_choice:
     case 5:
         print("Templates: Use preset messages")
     case 6:
-        print("Smileys: Edit smiley characters like :-)")
+        print("Smileys: Edit smiley characters like :)")
     case 7:
         print("Message settings: Set message centre number")
     case 8:
@@ -358,7 +358,7 @@ match user_menu_choice:
 match user_menu_choice:
 
     case 0:
-        print("\t GOODBYE 🤝")
+        print("\t ===== GOODBYE 🤝 ===== ")
 
         power_on = False
 
