@@ -1,4 +1,3 @@
-name = str('python')
 
-for number in range(1):
-    print("Python", end = " ")
+for character in ("Python"):
+    print(character, end = " ")

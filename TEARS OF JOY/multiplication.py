@@ -1,7 +1,5 @@
-for number in range(1, 8):
-
-    for table in range(1, 8):
-
-        print(table * number), end = " \t")
-
-    print()
+print("\tMultiplication table 7")
+for number in range(1, 13):
+    
+    print(" 7 X ", number, " = ", (7 * number))
+   
